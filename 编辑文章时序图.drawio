@@ -1,16 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2021-04-16T13:42:11.695Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="j5dnhgL7p9XgwLEwmCPT" version="14.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-16T15:05:34.662Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="sCDfgAY1Xrd0_szc85jy" version="14.6.1" type="github">
   <diagram id="mLCp8WUSFYr5n76MSJs5" name="Page-1">
     <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="HL7SSjTvzZI830amGafk-1" value="我的界面" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="HL7SSjTvzZI830amGafk-1" value="我的界面" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="190" y="80" width="100" height="600" as="geometry" />
         </mxCell>
-        <mxCell id="HL7SSjTvzZI830amGafk-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="HL7SSjTvzZI830amGafk-1">
+        <mxCell id="HL7SSjTvzZI830amGafk-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="HL7SSjTvzZI830amGafk-1" vertex="1">
           <mxGeometry x="45" y="90" width="10" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HL7SSjTvzZI830amGafk-35" value="显示是否保存草稿界面框" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Helvetica;entryX=1.12;entryY=0.541;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="HL7SSjTvzZI830amGafk-1" target="HL7SSjTvzZI830amGafk-9">
+        <mxCell id="HL7SSjTvzZI830amGafk-35" value="显示是否保存草稿界面框" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Helvetica;entryX=1.12;entryY=0.541;entryDx=0;entryDy=0;entryPerimeter=0;" parent="HL7SSjTvzZI830amGafk-1" target="HL7SSjTvzZI830amGafk-9" edge="1">
           <mxGeometry x="-0.4762" relative="1" as="geometry">
             <mxPoint x="216" y="360" as="sourcePoint" />
             <mxPoint x="-120" y="360" as="targetPoint" />
@@ -20,32 +20,32 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HL7SSjTvzZI830amGafk-3" value="服务器" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="HL7SSjTvzZI830amGafk-3" value="服务器" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="680" y="80" width="100" height="620" as="geometry" />
         </mxCell>
-        <mxCell id="HL7SSjTvzZI830amGafk-4" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="HL7SSjTvzZI830amGafk-3">
+        <mxCell id="HL7SSjTvzZI830amGafk-4" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="HL7SSjTvzZI830amGafk-3" vertex="1">
           <mxGeometry x="45" y="430" width="10" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="HL7SSjTvzZI830amGafk-7" value="医生或管理员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontStyle=0;fontFamily=Helvetica;" vertex="1" parent="1">
+        <mxCell id="HL7SSjTvzZI830amGafk-7" value="用户和医生" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontStyle=0;fontFamily=Helvetica;" parent="1" vertex="1">
           <mxGeometry x="40" y="70" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HL7SSjTvzZI830amGafk-8" value="" style="endArrow=none;dashed=1;html=1;fontFamily=Helvetica;" edge="1" parent="1" target="HL7SSjTvzZI830amGafk-7">
+        <mxCell id="HL7SSjTvzZI830amGafk-8" value="" style="endArrow=none;dashed=1;html=1;fontFamily=Helvetica;" parent="1" target="HL7SSjTvzZI830amGafk-7" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="55" y="700" as="sourcePoint" />
             <mxPoint x="54.5" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HL7SSjTvzZI830amGafk-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Helvetica;" vertex="1" parent="1">
+        <mxCell id="HL7SSjTvzZI830amGafk-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Helvetica;" parent="1" vertex="1">
           <mxGeometry x="50" y="170" width="10" height="500" as="geometry" />
         </mxCell>
-        <mxCell id="HL7SSjTvzZI830amGafk-10" value="点击写文章按钮" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=-0.34;entryY=0.012;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="HL7SSjTvzZI830amGafk-2">
+        <mxCell id="HL7SSjTvzZI830amGafk-10" value="点击写文章按钮" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=-0.34;entryY=0.012;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="HL7SSjTvzZI830amGafk-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="61" y="171" as="sourcePoint" />
             <mxPoint x="230" y="170" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HL7SSjTvzZI830amGafk-12" value="返回编辑文章界面" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Helvetica;" edge="1" parent="1" target="HL7SSjTvzZI830amGafk-9">
+        <mxCell id="HL7SSjTvzZI830amGafk-12" value="返回编辑文章界面" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Helvetica;" parent="1" target="HL7SSjTvzZI830amGafk-9" edge="1">
           <mxGeometry x="-0.4762" relative="1" as="geometry">
             <mxPoint x="408" y="270" as="sourcePoint" />
             <mxPoint x="72" y="270" as="targetPoint" />
@@ -55,76 +55,76 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HL7SSjTvzZI830amGafk-18" value="编辑文章界面" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="HL7SSjTvzZI830amGafk-18" value="编辑文章界面" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="364" y="80" width="100" height="620" as="geometry" />
         </mxCell>
-        <mxCell id="HL7SSjTvzZI830amGafk-19" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="HL7SSjTvzZI830amGafk-18">
+        <mxCell id="HL7SSjTvzZI830amGafk-19" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="HL7SSjTvzZI830amGafk-18" vertex="1">
           <mxGeometry x="45" y="120" width="10" height="470" as="geometry" />
         </mxCell>
-        <mxCell id="HL7SSjTvzZI830amGafk-20" value="创建编辑文章界面" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=-0.22;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="HL7SSjTvzZI830amGafk-19">
+        <mxCell id="HL7SSjTvzZI830amGafk-20" value="创建编辑文章界面" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=-0.22;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="HL7SSjTvzZI830amGafk-19" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="250" y="200" as="sourcePoint" />
             <mxPoint x="400.7999999999999" y="200.33999999999997" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HL7SSjTvzZI830amGafk-21" value="系统相册" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="HL7SSjTvzZI830amGafk-21" value="系统相册" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="540" y="80" width="100" height="600" as="geometry" />
         </mxCell>
-        <mxCell id="HL7SSjTvzZI830amGafk-22" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="HL7SSjTvzZI830amGafk-21">
+        <mxCell id="HL7SSjTvzZI830amGafk-22" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="HL7SSjTvzZI830amGafk-21" vertex="1">
           <mxGeometry x="45" y="260" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="HL7SSjTvzZI830amGafk-23" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+        <mxCell id="HL7SSjTvzZI830amGafk-23" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="60" y="300" as="sourcePoint" />
-            <mxPoint x="410" y="300" as="targetPoint" />
+            <mxPoint x="60" y="320" as="sourcePoint" />
+            <mxPoint x="410" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HL7SSjTvzZI830amGafk-24" value="输入文字" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HL7SSjTvzZI830amGafk-23">
+        <mxCell id="HL7SSjTvzZI830amGafk-24" value="输入文字" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="HL7SSjTvzZI830amGafk-23" vertex="1" connectable="0">
           <mxGeometry x="0.1142" y="4" relative="1" as="geometry">
             <mxPoint x="37" y="-6" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HL7SSjTvzZI830amGafk-26" value="" style="endArrow=classic;html=1;exitX=0.96;exitY=0.502;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+        <mxCell id="HL7SSjTvzZI830amGafk-26" value="" style="endArrow=classic;html=1;exitX=0.96;exitY=0.502;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="59.99999999999991" y="330.46000000000004" as="sourcePoint" />
-            <mxPoint x="410.4" y="330" as="targetPoint" />
+            <mxPoint x="59.99999999999991" y="340.46000000000004" as="sourcePoint" />
+            <mxPoint x="410.4" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HL7SSjTvzZI830amGafk-27" value="点击传输图片" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HL7SSjTvzZI830amGafk-26">
+        <mxCell id="HL7SSjTvzZI830amGafk-27" value="点击传输图片" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="HL7SSjTvzZI830amGafk-26" vertex="1" connectable="0">
           <mxGeometry x="0.1142" y="4" relative="1" as="geometry">
             <mxPoint x="35" y="-6" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HL7SSjTvzZI830amGafk-29" value="" style="endArrow=classic;html=1;entryX=0.14;entryY=0.055;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="HL7SSjTvzZI830amGafk-22">
+        <mxCell id="HL7SSjTvzZI830amGafk-29" value="" style="endArrow=classic;html=1;entryX=0.14;entryY=0.055;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="HL7SSjTvzZI830amGafk-22" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="424" y="342" as="sourcePoint" />
             <mxPoint x="570" y="341" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HL7SSjTvzZI830amGafk-30" value="调用系统相册" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HL7SSjTvzZI830amGafk-29">
+        <mxCell id="HL7SSjTvzZI830amGafk-30" value="调用系统相册" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="HL7SSjTvzZI830amGafk-29" vertex="1" connectable="0">
           <mxGeometry x="0.1142" y="4" relative="1" as="geometry">
             <mxPoint x="-7" y="-11" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HL7SSjTvzZI830amGafk-32" value="返回图片，显示" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Helvetica;" edge="1" parent="1">
+        <mxCell id="HL7SSjTvzZI830amGafk-32" value="返回图片，显示" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Helvetica;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="579.5" y="380" as="sourcePoint" />
             <mxPoint x="420" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HL7SSjTvzZI830amGafk-33" value="" style="endArrow=classic;html=1;exitX=0.96;exitY=0.502;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+        <mxCell id="HL7SSjTvzZI830amGafk-33" value="" style="endArrow=classic;html=1;exitX=0.96;exitY=0.502;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="60" y="410.46000000000004" as="sourcePoint" />
             <mxPoint x="410.4000000000001" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HL7SSjTvzZI830amGafk-34" value="点击退出" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HL7SSjTvzZI830amGafk-33">
+        <mxCell id="HL7SSjTvzZI830amGafk-34" value="点击退出" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="HL7SSjTvzZI830amGafk-33" vertex="1" connectable="0">
           <mxGeometry x="0.1142" y="4" relative="1" as="geometry">
             <mxPoint x="35" y="-6" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HL7SSjTvzZI830amGafk-36" value="返回上一界面" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Helvetica;" edge="1" parent="1" target="HL7SSjTvzZI830amGafk-9">
+        <mxCell id="HL7SSjTvzZI830amGafk-36" value="返回上一界面" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Helvetica;" parent="1" target="HL7SSjTvzZI830amGafk-9" edge="1">
           <mxGeometry x="-0.4762" relative="1" as="geometry">
             <mxPoint x="406" y="480" as="sourcePoint" />
             <mxPoint x="70" y="480" as="targetPoint" />
@@ -134,40 +134,40 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HL7SSjTvzZI830amGafk-37" value="" style="endArrow=classic;html=1;exitX=0.96;exitY=0.502;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+        <mxCell id="HL7SSjTvzZI830amGafk-37" value="" style="endArrow=classic;html=1;exitX=0.96;exitY=0.502;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="60" y="460.46000000000004" as="sourcePoint" />
             <mxPoint x="410.4000000000001" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HL7SSjTvzZI830amGafk-38" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HL7SSjTvzZI830amGafk-37">
+        <mxCell id="HL7SSjTvzZI830amGafk-38" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="HL7SSjTvzZI830amGafk-37" vertex="1" connectable="0">
           <mxGeometry x="0.1142" y="4" relative="1" as="geometry">
             <mxPoint x="35" y="-6" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HL7SSjTvzZI830amGafk-39" value="" style="endArrow=classic;html=1;exitX=0.96;exitY=0.502;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+        <mxCell id="HL7SSjTvzZI830amGafk-39" value="" style="endArrow=classic;html=1;exitX=0.96;exitY=0.502;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="60" y="500.46000000000004" as="sourcePoint" />
             <mxPoint x="410.4000000000001" y="500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HL7SSjTvzZI830amGafk-40" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HL7SSjTvzZI830amGafk-39">
+        <mxCell id="HL7SSjTvzZI830amGafk-40" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="HL7SSjTvzZI830amGafk-39" vertex="1" connectable="0">
           <mxGeometry x="0.1142" y="4" relative="1" as="geometry">
             <mxPoint x="35" y="-6" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HL7SSjTvzZI830amGafk-41" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+        <mxCell id="HL7SSjTvzZI830amGafk-41" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="420" y="510" as="sourcePoint" />
             <mxPoint x="730.4000000000001" y="510" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HL7SSjTvzZI830amGafk-42" value="将草稿传输至服务器" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HL7SSjTvzZI830amGafk-41">
+        <mxCell id="HL7SSjTvzZI830amGafk-42" value="将草稿传输至服务器" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="HL7SSjTvzZI830amGafk-41" vertex="1" connectable="0">
           <mxGeometry x="0.1142" y="4" relative="1" as="geometry">
             <mxPoint x="47" y="-6" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HL7SSjTvzZI830amGafk-43" value="保存成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Helvetica;" edge="1" parent="1">
+        <mxCell id="HL7SSjTvzZI830amGafk-43" value="保存成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Helvetica;" parent="1" edge="1">
           <mxGeometry x="-0.4762" relative="1" as="geometry">
             <mxPoint x="726" y="540" as="sourcePoint" />
             <mxPoint x="420" y="540" as="targetPoint" />
@@ -177,7 +177,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HL7SSjTvzZI830amGafk-44" value="保存成功或失败" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Helvetica;entryX=1;entryY=0.76;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.1;exitY=0.745;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="HL7SSjTvzZI830amGafk-19" target="HL7SSjTvzZI830amGafk-9">
+        <mxCell id="HL7SSjTvzZI830amGafk-44" value="保存成功或失败" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Helvetica;entryX=1;entryY=0.76;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.1;exitY=0.745;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="HL7SSjTvzZI830amGafk-19" target="HL7SSjTvzZI830amGafk-9" edge="1">
           <mxGeometry x="-0.369" relative="1" as="geometry">
             <mxPoint x="400" y="550" as="sourcePoint" />
             <mxPoint x="70" y="550" as="targetPoint" />
@@ -187,18 +187,18 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HL7SSjTvzZI830amGafk-45" value="" style="endArrow=classic;html=1;exitX=0.96;exitY=0.502;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+        <mxCell id="HL7SSjTvzZI830amGafk-45" value="" style="endArrow=classic;html=1;exitX=0.96;exitY=0.502;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="60" y="580.46" as="sourcePoint" />
             <mxPoint x="410.4000000000001" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HL7SSjTvzZI830amGafk-46" value="发布文章" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HL7SSjTvzZI830amGafk-45">
+        <mxCell id="HL7SSjTvzZI830amGafk-46" value="发布文章" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="HL7SSjTvzZI830amGafk-45" vertex="1" connectable="0">
           <mxGeometry x="0.1142" y="4" relative="1" as="geometry">
             <mxPoint x="35" y="-6" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HL7SSjTvzZI830amGafk-48" value="选择文章类型" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Helvetica;exitX=-0.06;exitY=0.856;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+        <mxCell id="HL7SSjTvzZI830amGafk-48" value="选择文章类型" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Helvetica;exitX=-0.06;exitY=0.856;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry x="-0.369" relative="1" as="geometry">
             <mxPoint x="408.4000000000001" y="600.96" as="sourcePoint" />
             <mxPoint x="60" y="600" as="targetPoint" />
@@ -208,29 +208,29 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HL7SSjTvzZI830amGafk-49" value="" style="endArrow=classic;html=1;exitX=0.96;exitY=0.502;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+        <mxCell id="HL7SSjTvzZI830amGafk-49" value="" style="endArrow=classic;html=1;exitX=0.96;exitY=0.502;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="60" y="620.46" as="sourcePoint" />
             <mxPoint x="410.4000000000001" y="620" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HL7SSjTvzZI830amGafk-50" value="选择并发布" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HL7SSjTvzZI830amGafk-49">
+        <mxCell id="HL7SSjTvzZI830amGafk-50" value="选择并发布" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="HL7SSjTvzZI830amGafk-49" vertex="1" connectable="0">
           <mxGeometry x="0.1142" y="4" relative="1" as="geometry">
             <mxPoint x="35" y="-6" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HL7SSjTvzZI830amGafk-51" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+        <mxCell id="HL7SSjTvzZI830amGafk-51" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="430" y="630" as="sourcePoint" />
             <mxPoint x="720.4000000000001" y="630" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HL7SSjTvzZI830amGafk-52" value="将文章传输至服务器" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HL7SSjTvzZI830amGafk-51">
+        <mxCell id="HL7SSjTvzZI830amGafk-52" value="将文章传输至服务器" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="HL7SSjTvzZI830amGafk-51" vertex="1" connectable="0">
           <mxGeometry x="0.1142" y="4" relative="1" as="geometry">
             <mxPoint x="48" y="-6" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HL7SSjTvzZI830amGafk-53" value="发布成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Helvetica;" edge="1" parent="1">
+        <mxCell id="HL7SSjTvzZI830amGafk-53" value="发布成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Helvetica;" parent="1" edge="1">
           <mxGeometry x="-0.4762" relative="1" as="geometry">
             <mxPoint x="726" y="660" as="sourcePoint" />
             <mxPoint x="420" y="660" as="targetPoint" />
@@ -240,7 +240,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HL7SSjTvzZI830amGafk-54" value="发布成功返回上一界面，失败则保持在当前界面" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Helvetica;entryX=1;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="HL7SSjTvzZI830amGafk-9">
+        <mxCell id="HL7SSjTvzZI830amGafk-54" value="发布成功返回上一界面，失败则保持在当前界面" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Helvetica;entryX=1;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="HL7SSjTvzZI830amGafk-9" edge="1">
           <mxGeometry x="-0.1561" relative="1" as="geometry">
             <mxPoint x="406" y="670" as="sourcePoint" />
             <mxPoint x="100" y="670" as="targetPoint" />
@@ -248,6 +248,17 @@
               <mxPoint x="220" y="670" />
             </Array>
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Scxo5nGB28Wq-4svynxq-2" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="300" as="sourcePoint" />
+            <mxPoint x="410" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Scxo5nGB28Wq-4svynxq-3" value="允许医生选择发布科普文章" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Scxo5nGB28Wq-4svynxq-2">
+          <mxGeometry x="0.1142" y="4" relative="1" as="geometry">
+            <mxPoint x="55" y="-6" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
