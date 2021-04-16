@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-16T15:05:34.662Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="sCDfgAY1Xrd0_szc85jy" version="14.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-16T15:11:49.402Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="BJJBnY4AiJ5JgoKsL4Bs" version="14.6.1" type="github">
   <diagram id="mLCp8WUSFYr5n76MSJs5" name="Page-1">
     <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -26,7 +26,7 @@
         <mxCell id="HL7SSjTvzZI830amGafk-4" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="HL7SSjTvzZI830amGafk-3" vertex="1">
           <mxGeometry x="45" y="430" width="10" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="HL7SSjTvzZI830amGafk-7" value="用户和医生" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontStyle=0;fontFamily=Helvetica;" parent="1" vertex="1">
+        <mxCell id="HL7SSjTvzZI830amGafk-7" value="普通用户和医生" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontStyle=0;fontFamily=Helvetica;" parent="1" vertex="1">
           <mxGeometry x="40" y="70" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HL7SSjTvzZI830amGafk-8" value="" style="endArrow=none;dashed=1;html=1;fontFamily=Helvetica;" parent="1" target="HL7SSjTvzZI830amGafk-7" edge="1">
@@ -250,13 +250,13 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Scxo5nGB28Wq-4svynxq-2" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+        <mxCell id="Scxo5nGB28Wq-4svynxq-2" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="60" y="300" as="sourcePoint" />
             <mxPoint x="410" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Scxo5nGB28Wq-4svynxq-3" value="允许医生选择发布科普文章" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Scxo5nGB28Wq-4svynxq-2">
+        <mxCell id="Scxo5nGB28Wq-4svynxq-3" value="允许医生选择发布科普文章" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Scxo5nGB28Wq-4svynxq-2" vertex="1" connectable="0">
           <mxGeometry x="0.1142" y="4" relative="1" as="geometry">
             <mxPoint x="55" y="-6" as="offset" />
           </mxGeometry>
