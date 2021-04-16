@@ -1,1 +1,76 @@
-<mxfile host="app.diagrams.net" modified="2021-04-16T12:23:20.110Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" version="14.6.1" etag="gT6mzODN1AmrkXy3CTCF" type="github"><diagram id="Xi5dhzKJrXVhysQiCEb2">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-16T12:29:44.429Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="hNpVfb9l_A5rc0Q_POBS" version="14.6.1" type="github">
+  <diagram id="Xi5dhzKJrXVhysQiCEb2" name="Page-1">
+    <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oL0ml-DG1ve0-mSmI-7l-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oL0ml-DG1ve0-mSmI-7l-1" target="oL0ml-DG1ve0-mSmI-7l-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oL0ml-DG1ve0-mSmI-7l-1" value="用户点击编辑文章" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oL0ml-DG1ve0-mSmI-7l-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oL0ml-DG1ve0-mSmI-7l-2" target="oL0ml-DG1ve0-mSmI-7l-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oL0ml-DG1ve0-mSmI-7l-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oL0ml-DG1ve0-mSmI-7l-2" target="oL0ml-DG1ve0-mSmI-7l-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oL0ml-DG1ve0-mSmI-7l-2" value="弹出编辑文章界面" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oL0ml-DG1ve0-mSmI-7l-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oL0ml-DG1ve0-mSmI-7l-4" target="oL0ml-DG1ve0-mSmI-7l-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oL0ml-DG1ve0-mSmI-7l-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oL0ml-DG1ve0-mSmI-7l-4" target="oL0ml-DG1ve0-mSmI-7l-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oL0ml-DG1ve0-mSmI-7l-4" value="输入文章信息" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="454" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oL0ml-DG1ve0-mSmI-7l-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oL0ml-DG1ve0-mSmI-7l-6" target="oL0ml-DG1ve0-mSmI-7l-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oL0ml-DG1ve0-mSmI-7l-6" value="点击退出编辑按钮" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oL0ml-DG1ve0-mSmI-7l-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oL0ml-DG1ve0-mSmI-7l-9" target="oL0ml-DG1ve0-mSmI-7l-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oL0ml-DG1ve0-mSmI-7l-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oL0ml-DG1ve0-mSmI-7l-9" target="oL0ml-DG1ve0-mSmI-7l-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oL0ml-DG1ve0-mSmI-7l-9" value="弹出是否保存草稿界面框" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oL0ml-DG1ve0-mSmI-7l-11" value="保存草稿并返回上一界面" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oL0ml-DG1ve0-mSmI-7l-14" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="480" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="oL0ml-DG1ve0-mSmI-7l-15" value="删除草稿并返回上一界面" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oL0ml-DG1ve0-mSmI-7l-17" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="414" y="420" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="oL0ml-DG1ve0-mSmI-7l-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oL0ml-DG1ve0-mSmI-7l-18" target="oL0ml-DG1ve0-mSmI-7l-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oL0ml-DG1ve0-mSmI-7l-18" value="点击提交文章按钮" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oL0ml-DG1ve0-mSmI-7l-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oL0ml-DG1ve0-mSmI-7l-20" target="oL0ml-DG1ve0-mSmI-7l-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oL0ml-DG1ve0-mSmI-7l-20" value="选择文章所属类别" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oL0ml-DG1ve0-mSmI-7l-22" value="提交文章，将文章发往服务器" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
