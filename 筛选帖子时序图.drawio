@@ -1,1 +1,89 @@
-<mxfile host="app.diagrams.net" modified="2021-04-17T03:34:15.136Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" version="14.6.1" etag="LjzOAufpIXaOqSrEFdiF" type="github"><diagram id="ZmAn930LyPjxxs0pNlkt">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-17T03:51:02.366Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="y1O3AP1AXpTgZi5piRnk" version="14.6.1" type="github">
+  <diagram id="ZmAn930LyPjxxs0pNlkt" name="Page-1">
+    <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xCrQrxHf90ZTOWWaR4XQ-1" value="帖子列表界面" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="90" width="140" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="xCrQrxHf90ZTOWWaR4XQ-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="xCrQrxHf90ZTOWWaR4XQ-1">
+          <mxGeometry x="65" y="80" width="10" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="xCrQrxHf90ZTOWWaR4XQ-4" value="服务器" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="90" width="100" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="xCrQrxHf90ZTOWWaR4XQ-5" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="xCrQrxHf90ZTOWWaR4XQ-4">
+          <mxGeometry x="45" y="200" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xCrQrxHf90ZTOWWaR4XQ-7" value="普通用户和医生" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontStyle=0;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="170" y="70" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xCrQrxHf90ZTOWWaR4XQ-8" value="" style="endArrow=none;dashed=1;html=1;fontFamily=Helvetica;" edge="1" parent="1" target="xCrQrxHf90ZTOWWaR4XQ-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="185" y="430" as="sourcePoint" />
+            <mxPoint x="184.5" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xCrQrxHf90ZTOWWaR4XQ-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="180" y="170" width="10" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="xCrQrxHf90ZTOWWaR4XQ-10" value="点击搜索按钮" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=-0.22;entryY=0.009;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.008;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="xCrQrxHf90ZTOWWaR4XQ-9" target="xCrQrxHf90ZTOWWaR4XQ-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="172" as="sourcePoint" />
+            <mxPoint x="340" y="200" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xCrQrxHf90ZTOWWaR4XQ-11" value="显示对应帖子" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Helvetica;" edge="1" parent="1" source="xCrQrxHf90ZTOWWaR4XQ-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="400" as="sourcePoint" />
+            <mxPoint x="190" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xCrQrxHf90ZTOWWaR4XQ-20" value="搜索页面" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="90" width="100" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="xCrQrxHf90ZTOWWaR4XQ-22" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="xCrQrxHf90ZTOWWaR4XQ-20">
+          <mxGeometry x="45" y="100" width="10" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="xCrQrxHf90ZTOWWaR4XQ-23" value="创建搜索页面" style="html=1;verticalAlign=bottom;endArrow=block;exitX=1.1;exitY=0.088;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.1;entryY=0.005;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xCrQrxHf90ZTOWWaR4XQ-2" target="xCrQrxHf90ZTOWWaR4XQ-22">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="390" y="190" as="sourcePoint" />
+            <mxPoint x="550" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xCrQrxHf90ZTOWWaR4XQ-24" value="返回搜索页面" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=1.08;entryY=0.258;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="xCrQrxHf90ZTOWWaR4XQ-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="230" as="sourcePoint" />
+            <mxPoint x="470" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xCrQrxHf90ZTOWWaR4XQ-26" value="点击科室列表" style="html=1;verticalAlign=bottom;endArrow=block;exitX=1.32;exitY=0.425;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="xCrQrxHf90ZTOWWaR4XQ-9">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="370" y="280" as="sourcePoint" />
+            <mxPoint x="550" y="268" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xCrQrxHf90ZTOWWaR4XQ-27" value="查询相关科室帖子" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.06;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xCrQrxHf90ZTOWWaR4XQ-22" target="xCrQrxHf90ZTOWWaR4XQ-5">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="570" y="290" as="sourcePoint" />
+            <mxPoint x="710" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xCrQrxHf90ZTOWWaR4XQ-28" value="返回相关科室帖子" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1" target="xCrQrxHf90ZTOWWaR4XQ-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="329" as="sourcePoint" />
+            <mxPoint x="570" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xCrQrxHf90ZTOWWaR4XQ-29" value="将相关帖子发送至帖子列表&lt;br&gt;并退出搜索界面" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1" source="xCrQrxHf90ZTOWWaR4XQ-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="350" as="sourcePoint" />
+            <mxPoint x="390" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
