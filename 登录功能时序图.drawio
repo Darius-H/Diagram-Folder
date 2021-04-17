@@ -1,116 +1,116 @@
-<mxfile host="app.diagrams.net" modified="2021-04-16T12:03:17.256Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="SJer6SpH6ed3DDIs9dqN" version="14.6.1" type="github">
-  <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value="登录界面" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="310" y="90" width="100" height="380" as="geometry" />
-        </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
-          <mxGeometry x="45" y="80" width="10" height="230" as="geometry" />
-        </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value="服务器" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="550" y="80" width="100" height="380" as="geometry" />
-        </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
-          <mxGeometry x="45" y="120" width="10" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="查询账号是否存在" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.06;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="3nuBFxr9cyL0pnOWT2aG-6" edge="1">
-          <mxGeometry x="-0.0417" relative="1" as="geometry">
-            <mxPoint x="370" y="200" as="sourcePoint" />
-            <mxPoint x="590" y="200" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="520" y="200" />
-              <mxPoint x="560" y="200" />
-            </Array>
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-9" value="账号不存在" style="verticalAlign=bottom;endArrow=open;shadow=0;strokeWidth=1;dashed=1;endFill=0;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="591" y="230" as="sourcePoint" />
-            <mxPoint x="370" y="230" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="410" y="230" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="MIlPVXCut4XVx4ZSFMQC-1" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontStyle=0;fontFamily=Helvetica;" vertex="1" parent="1">
-          <mxGeometry x="170" y="70" width="30" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="MIlPVXCut4XVx4ZSFMQC-7" value="" style="endArrow=none;dashed=1;html=1;fontFamily=Helvetica;" edge="1" parent="1" target="MIlPVXCut4XVx4ZSFMQC-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="185" y="460" as="sourcePoint" />
-            <mxPoint x="184.5" y="160" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="MIlPVXCut4XVx4ZSFMQC-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Helvetica;" vertex="1" parent="1">
-          <mxGeometry x="180" y="170" width="10" height="230" as="geometry" />
-        </mxCell>
-        <mxCell id="MIlPVXCut4XVx4ZSFMQC-9" value="输入账号和密码" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1.08;exitY=0.01;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.22;entryY=0.009;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="MIlPVXCut4XVx4ZSFMQC-8" target="3nuBFxr9cyL0pnOWT2aG-2">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="220" y="200.0000000000001" as="sourcePoint" />
-            <mxPoint x="340" y="200" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="250" y="173" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="MIlPVXCut4XVx4ZSFMQC-10" value="密码错误" style="verticalAlign=bottom;endArrow=open;shadow=0;strokeWidth=1;dashed=1;endFill=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="595" y="340" as="sourcePoint" />
-            <mxPoint x="370" y="340" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="MIlPVXCut4XVx4ZSFMQC-11" value="提醒用户注册账号" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Helvetica;entryX=1;entryY=0.366;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="MIlPVXCut4XVx4ZSFMQC-8">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="356" y="254" as="sourcePoint" />
-            <mxPoint x="200" y="250" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="MIlPVXCut4XVx4ZSFMQC-12" value="提醒用户密码错误" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Helvetica;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="350" y="330" as="sourcePoint" />
-            <mxPoint x="190" y="330" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="268" y="330" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="MIlPVXCut4XVx4ZSFMQC-13" value="密码正确" style="verticalAlign=bottom;endArrow=open;shadow=0;strokeWidth=1;dashed=1;endFill=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="595" y="380" as="sourcePoint" />
-            <mxPoint x="370" y="380" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="MIlPVXCut4XVx4ZSFMQC-16" value="登录成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Helvetica;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="340" y="400" as="sourcePoint" />
-            <mxPoint x="190" y="400" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="MIlPVXCut4XVx4ZSFMQC-17" value="账号存在" style="verticalAlign=bottom;endArrow=open;shadow=0;strokeWidth=1;dashed=1;endFill=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="591" y="269.5" as="sourcePoint" />
-            <mxPoint x="370" y="269.5" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="410" y="269.5" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="MIlPVXCut4XVx4ZSFMQC-18" value="查询账号与密码是否对应" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.06;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
-          <mxGeometry x="-0.0417" relative="1" as="geometry">
-            <mxPoint x="370" y="300" as="sourcePoint" />
-            <mxPoint x="595.5999999999999" y="300" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="520" y="300.14" />
-              <mxPoint x="560" y="300.14" />
-            </Array>
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
+<mxfile>
+    <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
+        <mxGraphModel dx="749" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value="登录界面" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+                    <mxGeometry x="310" y="90" width="100" height="380" as="geometry"/>
+                </mxCell>
+                <mxCell id="3nuBFxr9cyL0pnOWT2aG-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
+                    <mxGeometry x="45" y="80" width="10" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value="服务器" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+                    <mxGeometry x="550" y="80" width="100" height="380" as="geometry"/>
+                </mxCell>
+                <mxCell id="3nuBFxr9cyL0pnOWT2aG-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
+                    <mxGeometry x="45" y="120" width="10" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="查询账号是否存在" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.06;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="3nuBFxr9cyL0pnOWT2aG-6" edge="1">
+                    <mxGeometry x="-0.0417" relative="1" as="geometry">
+                        <mxPoint x="370" y="200" as="sourcePoint"/>
+                        <mxPoint x="590" y="200" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="520" y="200"/>
+                            <mxPoint x="560" y="200"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="3nuBFxr9cyL0pnOWT2aG-9" value="账号不存在" style="verticalAlign=bottom;endArrow=open;shadow=0;strokeWidth=1;dashed=1;endFill=0;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="591" y="230" as="sourcePoint"/>
+                        <mxPoint x="370" y="230" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="410" y="230"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="MIlPVXCut4XVx4ZSFMQC-1" value="普通用户和医生" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontStyle=0;fontFamily=Helvetica;" parent="1" vertex="1">
+                    <mxGeometry x="170" y="70" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="MIlPVXCut4XVx4ZSFMQC-7" value="" style="endArrow=none;dashed=1;html=1;fontFamily=Helvetica;" parent="1" target="MIlPVXCut4XVx4ZSFMQC-1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="185" y="460" as="sourcePoint"/>
+                        <mxPoint x="184.5" y="160" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="MIlPVXCut4XVx4ZSFMQC-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Helvetica;" parent="1" vertex="1">
+                    <mxGeometry x="180" y="170" width="10" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="MIlPVXCut4XVx4ZSFMQC-9" value="输入账号和密码" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1.08;exitY=0.01;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.22;entryY=0.009;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="MIlPVXCut4XVx4ZSFMQC-8" target="3nuBFxr9cyL0pnOWT2aG-2" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="220" y="200.0000000000001" as="sourcePoint"/>
+                        <mxPoint x="340" y="200" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="250" y="173"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="MIlPVXCut4XVx4ZSFMQC-10" value="密码错误" style="verticalAlign=bottom;endArrow=open;shadow=0;strokeWidth=1;dashed=1;endFill=0;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="595" y="340" as="sourcePoint"/>
+                        <mxPoint x="370" y="340" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="MIlPVXCut4XVx4ZSFMQC-11" value="提醒用户注册账号" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Helvetica;entryX=1;entryY=0.366;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="MIlPVXCut4XVx4ZSFMQC-8" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="356" y="254" as="sourcePoint"/>
+                        <mxPoint x="200" y="250" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="MIlPVXCut4XVx4ZSFMQC-12" value="提醒用户密码错误" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Helvetica;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="350" y="330" as="sourcePoint"/>
+                        <mxPoint x="190" y="330" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="268" y="330"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="MIlPVXCut4XVx4ZSFMQC-13" value="密码正确" style="verticalAlign=bottom;endArrow=open;shadow=0;strokeWidth=1;dashed=1;endFill=0;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="595" y="380" as="sourcePoint"/>
+                        <mxPoint x="370" y="380" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="MIlPVXCut4XVx4ZSFMQC-16" value="登录成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Helvetica;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="340" y="400" as="sourcePoint"/>
+                        <mxPoint x="190" y="400" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="MIlPVXCut4XVx4ZSFMQC-17" value="账号存在" style="verticalAlign=bottom;endArrow=open;shadow=0;strokeWidth=1;dashed=1;endFill=0;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="591" y="269.5" as="sourcePoint"/>
+                        <mxPoint x="370" y="269.5" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="410" y="269.5"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="MIlPVXCut4XVx4ZSFMQC-18" value="查询账号与密码是否对应" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.06;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+                    <mxGeometry x="-0.0417" relative="1" as="geometry">
+                        <mxPoint x="370" y="300" as="sourcePoint"/>
+                        <mxPoint x="595.5999999999999" y="300" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="520" y="300.14"/>
+                            <mxPoint x="560" y="300.14"/>
+                        </Array>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
 </mxfile>
