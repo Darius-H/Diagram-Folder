@@ -1,0 +1,107 @@
+<mxfile>
+    <diagram id="GaZEwZNvfu3UE7zAAX3h" name="Page-1">
+        <mxGraphModel dx="749" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="aPXRLluLCyAPujvP-D1S-1" value="阅读帖子界面" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+                    <mxGeometry x="310" y="90" width="140" height="380" as="geometry"/>
+                </mxCell>
+                <mxCell id="aPXRLluLCyAPujvP-D1S-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="aPXRLluLCyAPujvP-D1S-1" vertex="1">
+                    <mxGeometry x="65" y="80" width="10" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="aPXRLluLCyAPujvP-D1S-21" value="" style="curved=1;endArrow=classic;html=1;entryX=1.26;entryY=0.203;entryDx=0;entryDy=0;entryPerimeter=0;" parent="aPXRLluLCyAPujvP-D1S-1" target="aPXRLluLCyAPujvP-D1S-2" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="78" y="100" as="sourcePoint"/>
+                        <mxPoint x="60" y="127" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="80" y="100"/>
+                            <mxPoint x="100" y="100"/>
+                            <mxPoint x="100" y="127"/>
+                            <mxPoint x="80" y="127"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="aPXRLluLCyAPujvP-D1S-3" value="服务器" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+                    <mxGeometry x="550" y="80" width="100" height="380" as="geometry"/>
+                </mxCell>
+                <mxCell id="aPXRLluLCyAPujvP-D1S-4" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="aPXRLluLCyAPujvP-D1S-3" vertex="1">
+                    <mxGeometry x="45" y="260" width="10" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="aPXRLluLCyAPujvP-D1S-7" value="普通用户和医生" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontStyle=0;fontFamily=Helvetica;" parent="1" vertex="1">
+                    <mxGeometry x="170" y="70" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="aPXRLluLCyAPujvP-D1S-8" value="" style="endArrow=none;dashed=1;html=1;fontFamily=Helvetica;" parent="1" target="aPXRLluLCyAPujvP-D1S-7" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="185" y="460" as="sourcePoint"/>
+                        <mxPoint x="184.5" y="160" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="aPXRLluLCyAPujvP-D1S-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontFamily=Helvetica;" parent="1" vertex="1">
+                    <mxGeometry x="180" y="170" width="10" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="aPXRLluLCyAPujvP-D1S-10" value="点击评论编辑框" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=-0.22;entryY=0.009;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.008;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="aPXRLluLCyAPujvP-D1S-9" target="aPXRLluLCyAPujvP-D1S-2" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="200" y="172" as="sourcePoint"/>
+                        <mxPoint x="340" y="200" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="aPXRLluLCyAPujvP-D1S-12" value="未登录，弹出登录界面" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Helvetica;entryX=1;entryY=0.217;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="aPXRLluLCyAPujvP-D1S-9" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="370" y="220" as="sourcePoint"/>
+                        <mxPoint x="200" y="250" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="aPXRLluLCyAPujvP-D1S-15" value="发送成功或失败" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Helvetica;" parent="1" source="aPXRLluLCyAPujvP-D1S-1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="340" y="400" as="sourcePoint"/>
+                        <mxPoint x="190" y="400" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="aPXRLluLCyAPujvP-D1S-24" value="已登录，可以编辑" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Helvetica;entryX=1;entryY=0.217;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="370" y="250" as="sourcePoint"/>
+                        <mxPoint x="190" y="249.99999999999997" as="targetPoint"/>
+                        <Array as="points"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="aPXRLluLCyAPujvP-D1S-22" value="检查是否已登录" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="414" y="190" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="aPXRLluLCyAPujvP-D1S-25" value="编辑回复帖子" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=-0.22;entryY=0.009;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.008;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
+                    <mxGeometry x="-0.0153" relative="1" as="geometry">
+                        <mxPoint x="190" y="279.5" as="sourcePoint"/>
+                        <mxPoint x="372.79999999999995" y="279.73" as="targetPoint"/>
+                        <Array as="points"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="aPXRLluLCyAPujvP-D1S-26" value="点击发送" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=-0.22;entryY=0.009;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.008;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
+                    <mxGeometry x="-0.0153" relative="1" as="geometry">
+                        <mxPoint x="190" y="330" as="sourcePoint"/>
+                        <mxPoint x="372.79999999999995" y="330.23" as="targetPoint"/>
+                        <Array as="points"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="aPXRLluLCyAPujvP-D1S-27" value="发送回复贴" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.14;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="aPXRLluLCyAPujvP-D1S-4" edge="1">
+                    <mxGeometry x="-0.0153" relative="1" as="geometry">
+                        <mxPoint x="385" y="341" as="sourcePoint"/>
+                        <mxPoint x="590" y="340" as="targetPoint"/>
+                        <Array as="points"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="aPXRLluLCyAPujvP-D1S-28" value="发送成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Helvetica;exitX=-0.18;exitY=0.995;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="aPXRLluLCyAPujvP-D1S-4" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="590" y="380" as="sourcePoint"/>
+                        <mxPoint x="390" y="380" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
