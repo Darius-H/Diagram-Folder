@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-17T04:16:41.299Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="nObFutJoygoZt4H_BBgu" version="14.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-17T04:17:13.220Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="lExSt4B976ebC6VCZHp2" version="14.6.1" type="github">
   <diagram id="mLCp8WUSFYr5n76MSJs5" name="Page-1">
     <mxGraphModel dx="1038" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -195,12 +195,12 @@
             <mxPoint x="410.4000000000001" y="580" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HL7SSjTvzZI830amGafk-46" value="发布文章" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="HL7SSjTvzZI830amGafk-45" vertex="1" connectable="0">
+        <mxCell id="HL7SSjTvzZI830amGafk-46" value="发布帖子" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="HL7SSjTvzZI830amGafk-45" vertex="1" connectable="0">
           <mxGeometry x="0.1142" y="4" relative="1" as="geometry">
             <mxPoint x="35" y="-6" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HL7SSjTvzZI830amGafk-48" value="选择文章类型" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Helvetica;exitX=-0.06;exitY=0.856;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
+        <mxCell id="HL7SSjTvzZI830amGafk-48" value="选择帖子类型" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontFamily=Helvetica;exitX=-0.06;exitY=0.856;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry x="-0.369" relative="1" as="geometry">
             <mxPoint x="408.4000000000001" y="600.96" as="sourcePoint" />
             <mxPoint x="60" y="600" as="targetPoint" />
@@ -227,7 +227,7 @@
             <mxPoint x="720.4000000000001" y="630" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HL7SSjTvzZI830amGafk-52" value="将文章传输至服务器" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="HL7SSjTvzZI830amGafk-51" vertex="1" connectable="0">
+        <mxCell id="HL7SSjTvzZI830amGafk-52" value="将帖子传输至服务器" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="HL7SSjTvzZI830amGafk-51" vertex="1" connectable="0">
           <mxGeometry x="0.1142" y="4" relative="1" as="geometry">
             <mxPoint x="48" y="-6" as="offset" />
           </mxGeometry>
